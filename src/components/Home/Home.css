@@ -19,3 +19,47 @@
     
     font-weight: 500;
 }
+
+
+/* Sliders - Testmonials */
+
+.slider{
+    background-color: #AB3550;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    color: white;
+}
+.slider h2{
+    font-size: 2em;
+    margin: 1.5em;
+    font-weight: 700;
+}
+.slider img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto 150px;
+    
+
+}
+.slider .carousel-caption{
+    color:#212121;
+    font-size: 1.2em;
+    line-height: 30px;
+}
+.slider .carousel-caption p{
+    color: #212121;
+    display: block;
+    margin: 15px;
+
+}
+
+.slider .carousel{
+    background-color: #fff;
+    width: 70%;
+    margin: auto;
+    border-radius: 15px;
+
+}
