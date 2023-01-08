@@ -1,0 +1,52 @@
+header{
+    background: url("../../assets/header.jpg") center no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 100px 0 ;
+    text-align: left;
+    /* height: 400px; */
+    overflow: hidden;
+    max-width: 100%;
+    
+}
+header h2{
+    color:#43121d;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 700;
+}
+header p{
+    color: #777;
+    margin: 15px 0 25px 0 ;
+}
+
+#header-buttons button{
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 700 !important;
+    width: 150px;
+    height: 50px;
+    margin-right: 20px;
+    border: none ;
+    margin-bottom: 20px;
+}
+#header-buttons button:hover{
+    color: #AB3550;
+    border: 3px solid #AB3550;
+    transition: .2s ease-in-out;
+}
+
+#header-buttons :first-child{
+    background-color:#AB3550 !important;
+    color: white;
+}
+#header-buttons :first-child:hover{
+    background-color:#fff !important;
+
+    
+}
+#header-buttons :last-child{
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    
+}

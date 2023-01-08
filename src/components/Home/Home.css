@@ -1,0 +1,21 @@
+
+.numbers{
+    background-color: #AB3550;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.numbers .row {
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+}
+.numbers .row h2{
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.numbers .row h6{
+    
+    font-weight: 500;
+}

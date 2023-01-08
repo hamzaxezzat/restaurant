@@ -1,0 +1,29 @@
+nav{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: none; 
+    
+}
+nav img{
+    max-width: 80%;
+}
+nav a{
+    color:#AB3550 !important;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 700 !important;
+}
+nav #nav-call-button{
+    background-color: #AB3550;
+    color: #fff !important;
+    padding: 10px 20px;
+    border: 2px solid #AB3550;
+    margin-left:15px ;
+}
+nav #nav-call-button:hover{
+    background-color: transparent;
+    color: #AB3550 !important;
+    transition: .2s ease-in-out;
+}
