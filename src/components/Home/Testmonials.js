@@ -12,29 +12,28 @@ const Testmonials = () => {
             <Carousel.Item>
                 <img className="d-block" src={user1} />
                 <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live."</p>
+                <h3>Johnthan Doe - UX Designer</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
             <img className="d-block" src={user2} />
 
                 <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>"behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live far from the countries Vokalia."</p>
+                <h3>Simab Dave - Web Designer</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
             <img className="d-block" src={user1} />
 
                 <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                </p>
+                <p>"far from the countries Vokalia and Consonantia, Far far away, behind the word mountains,  there live the blind texts. "</p>
+                <h3>Maccy Doe - Front End</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             </Carousel>
+            <div className="clearfix"></div>
         </section>
     )
 }

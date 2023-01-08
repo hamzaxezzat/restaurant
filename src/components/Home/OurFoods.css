@@ -5,11 +5,12 @@
     text-align: center;
     margin: 5em 0;
 }
-.OurFoods .info h2{
+.OurFoods .info h2, .FAQ h2{
     font-size: 2em;
     font-weight: 700;
-    color: #AB3550;
+    color: #43121d;
     font-family: 'Quicksand', sans-serif;
+    text-align: center;
 }
 .OurFoods .info p{
     width: 70%;
@@ -44,9 +45,9 @@
     color: #777;
 }
 .meal hr{
-    color:#AB3550;
+    color:#ab35516e;
 }
-.meal button{
+.meal button, .paralex button{
     font-size: 1em;
     font-weight: 700 !important;
     width: 150px;
@@ -57,6 +58,78 @@
     color: #fff;
 }
 .meal button:hover{
+    color: #AB3550;
+    border: 3px solid #AB3550;
+    transition: .2s ease-in-out;
+    background-color:#fff !important;
+}
+
+/* FAQ Section*/
+
+.FAQ {
+    margin: 5em;
+}
+
+.FAQ h2{
+    margin: 2em;
+    color: #43121d;
+}
+.FAQ h5{
+    color: #43121d;
+}
+
+.FAQ h5 span{
+    color: #f98169;
+}
+.FAQ p{
+    color: #555;
+}
+
+/* paralex2 */
+.paralex2{
+    background: url('./../../assets/paralex2.jpg') center no-repeat;
+    background-size: cover;
+    background-color: grey;
+background-blend-mode: multiply;
+    height: 100%;
+    padding-bottom: 5em;
+}
+.paralex2 h2{
+    color: #fff;
+    display: inline-block;
+}
+
+
+/* newsletter */
+.newsletter {
+    background: none;
+}
+.newsletter .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newsletter p {
+    margin-top: 2em;
+}
+.newsletter input{
+    width: 20em ;
+    height: 2.7em;
+    border: 2px solid #e5e5e5;
+    font-weight: 700;
+}
+.newsletter input:focus{
+    outline: none;
+}
+.newsletter input[type=submit]{
+    font-size: 1em;
+    font-weight: 700 !important;
+    border: none ;
+    /* margin: 1em 1em 1em 0; */
+    background-color: #AB3550;
+    color: #fff;
+}
+.newsletter input[type=submit]:hover{
     color: #AB3550;
     border: 3px solid #AB3550;
     transition: .2s ease-in-out;

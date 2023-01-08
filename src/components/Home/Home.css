@@ -27,6 +27,7 @@
     background-color: #AB3550;
     width: 100%;
     max-width: 100%;
+    height: auto;
     text-align: center;
     padding: 25px 0;
     color: white;
@@ -40,9 +41,12 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    margin: 20px auto 150px;
-    
-
+    margin: 20px auto 200px;
+}
+.slider h3{
+    color: #AB3550;
+    font-size: 1em;
+    font-weight: 700;
 }
 .slider .carousel-caption{
     color:#212121;
@@ -55,11 +59,12 @@
     margin: 15px;
 
 }
-
 .slider .carousel{
     background-color: #fff;
     width: 70%;
     margin: auto;
     border-radius: 15px;
-
+}
+.carousel-indicators button{
+    background-color: #AB3550 !important;
 }

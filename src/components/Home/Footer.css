@@ -1,0 +1,19 @@
+footer{
+    background-color: #a82d49;
+    color: #fff;
+    height: 250px;
+    padding: 1em;
+    text-align: center;
+}
+
+footer li{
+    list-style-type: none;
+    display: inline;
+    margin: 1em;
+    font-weight: 700;
+}
+footer p{
+    font-size: .8em;
+    margin-top: 7em;
+    font-weight: 700;
+}
