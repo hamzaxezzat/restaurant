@@ -1,4 +1,5 @@
 import React from "react"
+import Aboutus from "./Aboutus";
 import Header from './Header';
 import Numbers from "./Numbers";
 const Home =()=>{
@@ -6,6 +7,7 @@ const Home =()=>{
         <>
         <Header />
         <Numbers />
+        <Aboutus />
         </>
     )
 }
