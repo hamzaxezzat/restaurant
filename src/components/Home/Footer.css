@@ -1,5 +1,5 @@
 footer{
-    background-color: #a82d49;
+    background-color: #34bf49;
     color: #fff;
     height: 250px;
     padding: 1em;
@@ -16,4 +16,13 @@ footer p{
     font-size: .8em;
     margin-top: 7em;
     font-weight: 700;
+}
+.payment-img{
+    width: 310px;
+    /* background-color: #fff; */
+    /* padding: 10px 30px; */
+    box-sizing: border-box;
+    /* fill: #fff; */
+    /* color: white; */
+    border-radius: 15px;
 }

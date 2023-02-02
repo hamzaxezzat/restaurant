@@ -8,7 +8,7 @@
 .OurFoods .info h2, .FAQ h2{
     font-size: 2em;
     font-weight: 700;
-    color: #43121d;
+    color: #34bf49;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
 }
@@ -28,7 +28,7 @@
 .meal .title{
     font-family: 'Quicksand',sans-serif;
     font-weight: 700;
-    color: #43121d;
+    color: #34bf49;
     margin-top: 1em;
 }
 .meal .time{
@@ -37,7 +37,7 @@
 .meal .price{
     font-size: 1.5em;
     font-weight: 700;
-    color: #AB3550;
+    color: #34bf49;
     margin: .8em 0;
 }
 .meal .oldPrice{
@@ -54,12 +54,12 @@
     height: 50px;
     border: none ;
     /* margin: 1em 1em 1em 0; */
-    background-color: #AB3550;
+    background-color: #34bf49;
     color: #fff;
 }
 .meal button:hover{
-    color: #AB3550;
-    border: 3px solid #AB3550;
+    color: #34bf49;
+    border: 3px solid #34bf49;
     transition: .2s ease-in-out;
     background-color:#fff !important;
 }
@@ -72,10 +72,10 @@
 
 .FAQ h2{
     margin: 2em;
-    color: #43121d;
+    color: #34bf49;
 }
 .FAQ h5{
-    color: #43121d;
+    color: #34bf49;
 }
 
 .FAQ h5 span{
@@ -126,12 +126,12 @@ background-blend-mode: multiply;
     font-weight: 700 !important;
     border: none ;
     /* margin: 1em 1em 1em 0; */
-    background-color: #AB3550;
+    background-color: #34bf49;
     color: #fff;
 }
 .newsletter input[type=submit]:hover{
-    color: #AB3550;
-    border: 3px solid #AB3550;
+    color: #34bf49;
+    border: 3px solid #34bf49;
     transition: .2s ease-in-out;
     background-color:#fff !important;
 }

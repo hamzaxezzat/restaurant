@@ -12,7 +12,7 @@
 }
 .aboutus h2,.paralex h2{
     margin: 10px 0;
-    color: #43121d;
+    color: #34bf49;
     font-size: 2em;
     font-weight: 700;
     font-family: 'Quicksand', sans-serif;
@@ -28,13 +28,13 @@
     height: 50px;
     border: none ;
     margin: 1em 1em 1em 0;
-    background-color: #AB3550;
+    background-color: #34bf49;
     color: #fff;
     
 }
 .aboutus button:hover{
-    color: #AB3550;
-    border: 3px solid #AB3550;
+    color: #34bf49;
+    border: 3px solid #34bf49;
     transition: .2s ease-in-out;
     background-color:#fff !important;
 }
@@ -57,14 +57,14 @@
     width: 70%;
     margin: auto;
     font-weight: 700;
-    color: #AB3550;
+    color: #34bf49;
 }
 .paralex p{
     color: #777;
     margin-bottom: 3em;
 }
 .paralex a{
-    color: #43121d;
+    color: #34bf49;
     font-size: 1.2em;
     text-decoration: none;
 }

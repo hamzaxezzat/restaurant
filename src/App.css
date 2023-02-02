@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+button, nav #nav-call-button{
+  border-radius: 50px !important;
+}

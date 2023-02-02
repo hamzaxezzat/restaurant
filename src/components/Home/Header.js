@@ -6,8 +6,9 @@ const Header = ()=>{
         <header>
             <div className="container">
                 <div className="col-md-5">
-                <h2>Good food choices are good investments.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum amet leo.</p>
+                <h3>Welcome BeHealth Restaurant</h3>
+                <h2>LOVES HEALTHY FOOD</h2>
+                <p>Best Offer Products 100% Naturan Healthy Food For Your Life</p>
                 <div id="header-buttons">
                     <button>Order Now</button>
                     <button>Learn More</button>

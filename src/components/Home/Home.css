@@ -1,6 +1,6 @@
 
 .numbers{
-    background-color: #AB3550;
+    background-color: #34bf49;
     color: #fff;
     font-family: 'Quicksand', sans-serif;
     
@@ -24,7 +24,7 @@
 /* Sliders - Testmonials */
 
 .slider{
-    background-color: #AB3550;
+    background-color: #34bf49;
     width: 100%;
     max-width: 100%;
     height: auto;
@@ -44,7 +44,7 @@
     margin: 20px auto 200px;
 }
 .slider h3{
-    color: #AB3550;
+    color: #34bf49;
     font-size: 1em;
     font-weight: 700;
 }
@@ -66,5 +66,5 @@
     border-radius: 15px;
 }
 .carousel-indicators button{
-    background-color: #AB3550 !important;
+    background-color: #34bf49 !important;
 }

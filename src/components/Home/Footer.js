@@ -1,5 +1,6 @@
 import React from "react";
 import social from "./../../assets/footerIcons.png"
+import payment from "./../../assets/payment.svg"
 import './Footer.css'
 const Footer = () =>{
     return(
@@ -12,9 +13,14 @@ const Footer = () =>{
                         <li>Affiliate</li>
                         <li>FAQ</li>
                     </ul>
-                    <img src={social} />
+                    <img src={social} /> <br/>
                 </div>
-                <p>© 2021. Foodera. All rights reserved.</p>
+                <p>© 2021. BeHealth. All rights reserved. <br/>
+                <img className="payment-img" src={payment} />
+                </p>
+                    
+
+                
             </div>
         </footer>
     )

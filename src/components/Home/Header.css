@@ -10,8 +10,14 @@ header{
     
 }
 header h2{
-    color:#43121d;
+    color:#34bf49;
     font-size: 50px;
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 700;
+}
+header h3{
+    color:#34bf49;
+    font-size: 20px;
     font-family: 'Quicksand', sans-serif !important;
     font-weight: 700;
 }
@@ -31,13 +37,13 @@ header p{
     margin-bottom: 20px;
 }
 #header-buttons button:hover{
-    color: #AB3550;
-    border: 3px solid #AB3550;
+    color: #34bf49;
+    border: 3px solid #34bf49;
     transition: .2s ease-in-out;
 }
 
 #header-buttons :first-child{
-    background-color:#AB3550 !important;
+    background-color:#34bf49 !important;
     color: white;
 }
 #header-buttons :first-child:hover{

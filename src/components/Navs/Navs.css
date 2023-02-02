@@ -11,20 +11,20 @@ nav img{
     width: 100px;
 }
 nav a{
-    color:#AB3550 !important;
+    color:#34bf49 !important;
     font-size: 15px;
     letter-spacing: 1px;
     font-weight: 700 !important;
 }
 nav #nav-call-button{
-    background-color: #AB3550;
+    background-color: #34bf49;
     color: #fff !important;
     padding: 10px 20px;
-    border: 2px solid #AB3550;
+    border: 2px solid #34bf49;
     margin-left:15px ;
 }
 nav #nav-call-button:hover{
     background-color: transparent;
-    color: #AB3550 !important;
+    color: #34bf49 !important;
     transition: .2s ease-in-out;
 }
