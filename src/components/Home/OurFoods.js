@@ -2,11 +2,11 @@ import React from "react";
 import './OurFoods.css'
 import Data from "./../../Data"
 
-const mealsElements = Data.map(item=>{
+const mealsElements = Data.map((item,i)=>{
     return(
-        <div className="col-md-4">
+        <div className="col-md-4"  key={i}>
             <div className="meal">
-                <img src={item.img} title={item.title}/>
+                <img src={item.img} title={item.title} alt="product"/>
                 <h5 className="title">{item.title}</h5>
                 <h6 className="time">Time: {item.time} Minutes | Serves: 1</h6>
                 <h3 className="price">${item.price} <span className="oldPrice">${item.oldPrice}</span></h3>

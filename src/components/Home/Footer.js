@@ -13,10 +13,10 @@ const Footer = () =>{
                         <li>Affiliate</li>
                         <li>FAQ</li>
                     </ul>
-                    <img src={social} /> <br/>
+                    <img src={social} alt="socialmedias" /> <br/>
                 </div>
                 <p>© 2021. BeHealth. All rights reserved. <br/>
-                <img className="payment-img" src={payment} />
+                <img className="payment-img" src={payment} alt="payment"/>
                 </p>
                     
 
